@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charts system - IVAO Ecuador</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" href="./assets/logo.png">
+</head>
+<body>
+
+    <div  id="intro-animation">
+        <img class="logo-trs" src="assets/logo_charts.png" alt="Logo IVAO Ecuador">
+        <div class="loading-container">
+            <span class="circle" id="c1"></span>
+            <span class="circle" id="c2"></span>
+            <span class="circle" id="c3"></span>
+            <span class="circle" id="c4"></span>
+        </div>
+    </div>
+
+    <div class="left-side" id="left-side">
+        <img src="assets/logo.png" alt="Logo de IVAO Ecuador">
+        <h1>Charts System</h1>
+        <p>Bienvenido al sistema de cartas. La división de IVAO Ecuador comparte con sus usuarios registrados
+        el acceso a las cartas de navegación del espacio aéreo ecuatoriano. Lo invitamos a revisar la documentación
+        pertinente sobre operaciones en Ecuador.
+        </p>
+        <div class="button-div">
+            <a href="https://ec.ivao.aero/atc/documents/LocalProceduresInformation.pdf" target="_blank" class="btn-documents">Ver procedimientos locales </a>
+        </div>
+    </div>
+    <div class="right-side" id="right-side">
+x
+    </div>
+
+    <script src="./js/script.js"></script>
+    <script>
+        window.onload = function(){
+          const contenedor = document.getElementById("intro-animation");
+          const info_training = document.getElementById("left-side");
+          const info_form = document.getElementById("right-side");
+
+
+          setTimeout(() => {
+            contenedor.style.animation = "intro-hidden 0.5s forwards"
+            clearInterval(loadingPage)
+
+            setTimeout(() => {
+                info_training.style.animation = "content-reveal 1s forwards";
+                info_form.style.animation = "content-reveal-right 1s forwards";
+            },30)
+          },15)
+        };
+    </script>
+</body>
+</html>
