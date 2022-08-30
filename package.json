@@ -1,0 +1,28 @@
+{
+  "name": "charts-system",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IVAO-Ecuador/charts-system.git"
+  },
+  "keywords": [
+    "ivao-ecuador"
+  ],
+  "author": "Santiago Baron Zuleta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IVAO-Ecuador/charts-system/issues"
+  },
+  "homepage": "https://github.com/IVAO-Ecuador/charts-system#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "node-fetch": "^2.6.6",
+    "nodemon": "^2.0.19"
+  }
+}
