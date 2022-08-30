@@ -128,6 +128,10 @@ body::-webkit-scrollbar-thumb{
 	background-position: -600px;
 }
 
+#mapSection, #chartSection{
+    display: none;
+}
+
 @keyframes content-reveal{
     0%{
         position: relative;
@@ -156,7 +160,7 @@ body::-webkit-scrollbar-thumb{
 	position: relative;
 }
 
-.left-side img{
+.left-side > .info-section > img{
     width: 62%;
     display: block;
     margin: 40px auto;
@@ -292,4 +296,70 @@ body::-webkit-scrollbar-thumb{
 
 .signup-link:hover{
 	text-decoration: underline;
+}
+
+/*Map section*/
+
+.charts_logo{
+    display: block;
+    width: 80%;
+    margin: 40px auto 0px auto;
+}
+
+.map-section svg{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.map-section svg path{
+   fill: 
+   #7124ef;
+}
+
+.map-section p{
+    width: 80%;
+    text-align: center;
+    display: block;
+    margin: auto;
+}
+
+.map-section svg path:hover{
+    fill: #fff;
+    cursor: pointer;
+}
+
+.buttonsSelector{
+    width: 100%;
+    display: block;
+    margin: auto;
+    text-align: center;
+}
+
+.buttonSelect{
+    width: 200px;
+    height: 60px;
+    cursor: pointer;
+    background-color: var(--indigo);
+    color: #fff;
+    font-size: 18px;
+    transition: 0.3s all;
+}
+
+.buttonSelect:hover{
+    background-color: #7124ef;
+	transition: 0.3s all;
+    width: 220px;
+}
+
+#chartPlaces{
+    border-bottom-left-radius: 15px;
+    border-top-left-radius: 15px;
+}
+
+#chartAirports{
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+    border-left: 2px solid #FFF;
+    margin-left: -5px;
 }

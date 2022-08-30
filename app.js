@@ -21,7 +21,11 @@ app.get('/getUser/:user', (req,res) => {
     const userToken = req.params.user;
     fetch(`https://login.ivao.aero/api.php?type=json&token=${userToken}`)
     .then(data => data.json())
-    .then(data => res.send(data));
+    .then(data => {
+        if(data.vid != null){
+            res.send(data)
+        }
+    });
 })
 
 const port = process.env.port || 80;
