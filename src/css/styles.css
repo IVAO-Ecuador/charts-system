@@ -489,3 +489,146 @@ body::-webkit-scrollbar-thumb{
     background: linear-gradient(to right top, #05193799, #004d7a99, #00879399, #00bf7299, #a8eb1299);
     z-index: 2;
 }
+
+@media only screen and (max-width: 1024px)  {
+    #intro-animation{
+        width: 100%;
+    }
+    .button-div {
+        padding-bottom: 50px;
+        }
+    .login-box, .login-box::after{
+        width: 480px;
+    }
+    .login-button::before{
+        left: 70px;
+    }
+    .right-side{
+        padding: 60px;
+    }
+    .buttonSelect{
+        width: 150px;
+    }
+    .buttonSelect:hover,.active{
+        width: 170px;
+    }
+    .map-section p{
+        width: 100%;
+    }
+    .map-section svg{
+        height: 300px;
+    }
+    .chartbox-text a{
+        display: block;
+        width: 200px;
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    body{
+        display: block;
+    }
+    .left-side > .info-section > img{
+        width: 20%;
+        margin: 0px auto;
+        padding-top: 30px;
+    }
+    .charts_logo{
+        width: 70%;
+        margin: auto;
+        padding-top: 30px;
+    }
+    .left-side{
+        height: auto;
+    }
+    .map-section p{
+        margin-bottom: 30px;
+    }
+    .map-section svg{
+        margin-bottom: 30px;
+    }
+    .buttonsSelector{
+        padding-bottom: 40px;
+    }
+    .button-div {
+    padding-bottom: 50px;
+    }
+    .right-side{
+        width: 100%;
+        height: 100%;
+    }
+    .chartbox-text a{
+        width: 240px;
+    }
+    #chartSection{
+        padding-bottom: 40px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .login-box, .login-box::after{
+        width: 85%;
+        padding: 40px;
+    }
+    .login-box::after{
+        left: -10px;
+        top: 20px;
+    }
+    .login-button::before{
+        left: 20px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .btn-documents{
+        font-size: 16px;
+    }
+    .login-button::before{
+        display: none;
+    }
+    .login-button{
+        padding-left: 0;
+    }
+    .charts-box{
+        grid-template-columns: 1fr;
+    }
+    #filterButton{
+        width: 50px;
+    }
+    #filterButton img{
+        width: 20px;
+    }
+    .charts_logo{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .chartbox-text a{
+        width: 200px;
+    }
+    .map-section svg{
+        height: 230px;
+    }
+}
+
+@media only screen and (max-width: 320px){
+    .left-side p{
+        padding: 10px 40px;
+    }
+    .button-div{
+        margin: 0 20px;
+        text-align: center;
+    }
+    .btn-documents::after{
+        top: 16px;
+        right: 16px;
+    }
+    .login-box{
+        padding: 40px 20px;
+    }
+    .login-box::after{
+        display: none;
+    }
+}
