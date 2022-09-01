@@ -308,13 +308,13 @@ body::-webkit-scrollbar-thumb{
     margin: 40px auto 0px auto;
 }
 
-.map-section svg{
+.map-section .regions{
     width: 80%;
     display: block;
     margin: auto;
 }
 
-.map-section svg path{
+.map-section .regions path{
    fill:#7124ef;
 }
 
@@ -325,7 +325,7 @@ body::-webkit-scrollbar-thumb{
     margin: auto;
 }
 
-.map-section svg path:hover{
+.map-section .regions path:hover{
     fill: #fff;
     cursor: pointer;
 }
