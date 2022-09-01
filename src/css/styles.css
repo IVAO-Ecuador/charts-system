@@ -490,6 +490,34 @@ body::-webkit-scrollbar-thumb{
     z-index: 2;
 }
 
+.chartNotFound{
+    background-color: #1d204b;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    color: #fff;
+    font-weight: 400;
+}
+
+.showAllButton{
+    width: 50%;
+    margin: 40px auto;
+    display: block;
+    height: 60px;
+    border-radius: 15px;
+    background-color: var(--indigo);
+    color: #FFF;
+    font-size: 16px;
+    transition: 0.3s all;
+    cursor: pointer;
+}
+
+.showAllButton:hover{
+	background-color: #7124ef;
+	transition: 0.3s all;
+	transform: translate(2px, -2px);
+}
+
 @media only screen and (max-width: 1024px)  {
     #intro-animation{
         width: 100%;
@@ -578,6 +606,9 @@ body::-webkit-scrollbar-thumb{
     .login-button::before{
         left: 20px;
     }
+    .showAllButton{
+        width: 70%;
+    }
 }
 
 @media only screen and (max-width: 425px){
@@ -630,5 +661,8 @@ body::-webkit-scrollbar-thumb{
     }
     .login-box::after{
         display: none;
+    }
+    .right-side{
+        padding: 40px;
     }
 }

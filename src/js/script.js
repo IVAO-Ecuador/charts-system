@@ -1,7 +1,9 @@
 'use strict';
 
+import { finder } from "./finder.js";
 import { chartsSectionInfo } from "./pages/chartsSection.js";
 import { mapSectionInfo } from "./pages/mapSection.js";
+import { providence } from "./providence.js";
 
 /* Login */
 
@@ -29,6 +31,9 @@ if(token != null){
 
             mapSection.innerHTML = mapSectionInfo;
             chartsSectionInfo();
+            providence();
+            finder();
+            
         }else{
             showLoginPage()
         };
