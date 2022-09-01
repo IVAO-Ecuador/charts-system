@@ -23,14 +23,26 @@ export const providence = () => {
     const santaElena = document.querySelector("#santaElena");
     const santoDomingo = document.querySelector("#santoDomingo");
     const galapagos = document.querySelector("#galapagos");
+    const chimborazo = document.querySelector("#chimborazo");
+    const cañar = document.querySelector("#cañar");
     
     const providenceArray = [azuay, elOro, loja, chinchipe, bolivar, cotopaxi, guayas,
     losRios,manabi,moronaSantiago,orellana,pichincha,pastaza,napo,tungurahua,esmeraldas,
-    carchi,imbabura,sucumbios,santaElena,santoDomingo,galapagos]
+    carchi,imbabura,sucumbios,santaElena,santoDomingo,galapagos, chimborazo, cañar]
+
+    const selectRegion = (region) => {
+        providenceArray.forEach(element => {
+            if(element != region){
+                element.style.fill = "#7124ef";
+            }
+        })
+    }
 
     providenceArray.forEach(element => {
         element.addEventListener('click', () => {
             chartsSectionInfo(element.id)
+            element.style.fill = "#FFF";
+            selectRegion(element);
         })
     });
 

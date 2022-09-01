@@ -183,7 +183,17 @@ export const chartsSectionInfo = (condition = "all") => {
 
         const showAllButton = document.querySelector("#showAllButton");
         showAllButton.addEventListener('click', () => {
-            chartsSectionInfo("all")
+            chartsSectionInfo("all");
+
+            const regions = document.querySelectorAll(".regions path")
+            regions.forEach(element => {
+                element.style.fill = "#7124ef";
+            });
+
+            const airports = document.querySelectorAll(".airports circle")
+            airports.forEach(element => {
+                element.style.fill = "#0d1323";
+            });
         })
     }
 

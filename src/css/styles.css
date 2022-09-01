@@ -329,7 +329,7 @@ body::-webkit-scrollbar-thumb{
 
 .map-section .regions path:hover,
 .map-section .airports circle:hover{
-    fill: #fff;
+    fill: #fff !important;
     cursor: pointer;
 }
 

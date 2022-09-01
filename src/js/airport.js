@@ -22,9 +22,19 @@ export const airportsOptions = () => {
     const airportsArray = [SEQM, SEGU, SEMT, SEST, SEGS, SECU, SERO, SELT
     , SENL, SECO, SESM, SEMC, SEJD, SETN, SETU, SESA, SECA]
 
+    const selectAirport = (airport) => {
+        airportsArray.forEach(element => {
+            if(element != airport){
+                element.style.fill = "#0d1323";
+            }
+        })
+    }
+
     airportsArray.forEach(element => {
         element.addEventListener('click', () => {
             chartsSectionInfo(element.id)
+            element.style.fill = "#FFF";
+            selectAirport(element);
         })
     })
 }
