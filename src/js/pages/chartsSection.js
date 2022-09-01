@@ -60,7 +60,7 @@ export const chartsSectionInfo = (condition = "all") => {
             chartImg: "./src/assets/airports/SERO.jpg",
             chartLink: "",
             providenceName: "El Oro",
-            providenceCode: "elOro"
+            providenceCode: "eloro"
         },
         {
             icao: "SELT",
@@ -76,7 +76,7 @@ export const chartsSectionInfo = (condition = "all") => {
             chartImg: "./src/assets/airports/SENL.jpg",
             chartLink: "",
             providenceName: "Nueva Loja",
-            providenceCode: "loja"
+            providenceCode: "sucumbios"
         },
         {
             icao: "SECO",
@@ -99,8 +99,8 @@ export const chartsSectionInfo = (condition = "all") => {
             city: "Macas",
             chartImg: "./src/assets/airports/SEMC.jpg",
             chartLink: "",
-            providenceName: "Pastaza",
-            providenceCode: "pastaza"
+            providenceName: "Morona Santiago",
+            providenceCode: "moronasantiago"
         },
         {
             icao: "SEJD",
@@ -132,7 +132,7 @@ export const chartsSectionInfo = (condition = "all") => {
             chartImg: "./src/assets/airports/SESA.jpg",
             chartLink: "",
             providenceName: "Santa Elena",
-            providenceCode: "santaElena"
+            providenceCode: "santaelena"
         },
         {
             icao: "SECA",
