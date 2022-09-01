@@ -3,19 +3,17 @@
 The IVAO Ecuador chart system provides a tool for its users to access the aeronautical charts of the Ecuadorian air space. For this it is necessary to have a registered account in IVAO and comply with the regulations.
 
 ## Table of Contents 📋
-- General Info
 
-- Technologies
+- General Info
 
 - Installation
 
 - Authors
 
-- Social Media
-
 
 ## Preview project 📸
 ![](https://i.imgur.com/okryZCU.jpg)
+
 ![](https://i.imgur.com/nX6aAHf.jpg)
 
 ## Technologies ⚙️
@@ -38,7 +36,7 @@ To install the project on your computer, you can use the "Code" button and follo
 - Write ``` git clone ``` and paste the url. As follows:
 
 ``` 
-git clone https://github.com/Santiago-Baron-Zuleta/training-request-system.git
+git clone https://github.com/IVAO-Ecuador/charts-system.git
 ```
 
 ### 2️⃣ Download ZIP
@@ -55,4 +53,4 @@ npm start
 
 ## Authors 🦸‍♀️
 
-- Santiago Baron Zuleta - *Project creator* [Santiago-Baron-Zuleta](https://github.com/santiagobaronz)
+- Santiago Baron Zuleta - *Project creator* [Santiago Baron Zuleta](https://github.com/santiagobaronz)
