@@ -31,6 +31,8 @@ if(token != null){
             mapSectionInfo();
             chartsSectionInfo();
             finder();
+
+            window.history.pushState("object or string", "Title", "/"+window.location.href.substring(window.location.href.lastIndexOf('/') + 1).split("?")[0]);
             
         }else{
             showLoginPage()
