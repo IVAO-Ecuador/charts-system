@@ -9,7 +9,7 @@ export const chartsSectionInfo = (condition = "all") => {
             icao: "SEQM",
             city: "Quito",
             chartImg: "./src/assets/airports/SEQM.jpg",
-            chartLink: "chart/seqm",
+            chartLink: "./src/charts/SEQM.pdf",
             providenceName: "Pichincha",
             providenceCode: "pichincha"
         },
@@ -17,7 +17,7 @@ export const chartsSectionInfo = (condition = "all") => {
             icao: "SEGU",
             city: "Guayaquil",
             chartImg: "./src/assets/airports/SEGU.jpg",
-            chartLink: "",
+            chartLink: "./src/charts/SEGU.pdf",
             providenceName: "Guayas",
             providenceCode: "guayas"
         },
@@ -25,7 +25,7 @@ export const chartsSectionInfo = (condition = "all") => {
             icao: "SEMT",
             city: "Manta",
             chartImg: "./src/assets/airports/SEMT.jpg",
-            chartLink: "",
+            chartLink: "./src/charts/SEMT.pdf",
             providenceName: "Manabi",
             providenceCode: "manabi"
         },
@@ -33,7 +33,7 @@ export const chartsSectionInfo = (condition = "all") => {
             icao: "SEST",
             city: "San Cristóbal",
             chartImg: "./src/assets/airports/SEST.jpg",
-            chartLink: "",
+            chartLink: "./src/charts/SEST.pdf",
             providenceName: "Galápagos",
             providenceCode: "galapagos"
         },
@@ -41,7 +41,7 @@ export const chartsSectionInfo = (condition = "all") => {
             icao: "SEGS",
             city: "Galápagos",
             chartImg: "./src/assets/airports/SEGS.jpg",
-            chartLink: "",
+            chartLink: "./src/charts/SEGS.pdf",
             providenceName: "Galápagos",
             providenceCode: "galapagos"
         }
@@ -50,7 +50,7 @@ export const chartsSectionInfo = (condition = "all") => {
             icao: "SECU",
             city: "Cuenca",
             chartImg: "./src/assets/airports/SECU.jpg",
-            chartLink: "",
+            chartLink: "./src/charts/SECU.pdf",
             providenceName: "Azuay",
             providenceCode: "azuay"
         },
@@ -58,7 +58,7 @@ export const chartsSectionInfo = (condition = "all") => {
             icao: "SERO",
             city: "Santa Rosa",
             chartImg: "./src/assets/airports/SERO.jpg",
-            chartLink: "",
+            chartLink: "./src/charts/SERO.pdf",
             providenceName: "El Oro",
             providenceCode: "eloro"
         },
@@ -66,7 +66,7 @@ export const chartsSectionInfo = (condition = "all") => {
             icao: "SELT",
             city: "Latacunga",
             chartImg: "./src/assets/airports/SELT.jpg",
-            chartLink: "",
+            chartLink: "./src/charts/SELT.pdf",
             providenceName: "Cotopaxi",
             providenceCode: "cotopaxi"
         },
@@ -74,7 +74,7 @@ export const chartsSectionInfo = (condition = "all") => {
             icao: "SENL",
             city: "Lago Agrario",
             chartImg: "./src/assets/airports/SENL.jpg",
-            chartLink: "",
+            chartLink: "./src/charts/SENL.pdf",
             providenceName: "Nueva Loja",
             providenceCode: "sucumbios"
         },
@@ -82,7 +82,7 @@ export const chartsSectionInfo = (condition = "all") => {
             icao: "SECO",
             city: "Coca",
             chartImg: "./src/assets/airports/SECO.jpg",
-            chartLink: "",
+            chartLink: "./src/charts/SECO.pdf",
             providenceName: "Orellana",
             providenceCode: "orellana"
         },
@@ -90,7 +90,7 @@ export const chartsSectionInfo = (condition = "all") => {
             icao: "SESM",
             city: "Shell",
             chartImg: "./src/assets/airports/SESM.jpg",
-            chartLink: "",
+            chartLink: "./src/charts/SESM.pdf",
             providenceName: "Pastaza",
             providenceCode: "pastaza"
         },
@@ -98,7 +98,7 @@ export const chartsSectionInfo = (condition = "all") => {
             icao: "SEMC",
             city: "Macas",
             chartImg: "./src/assets/airports/SEMC.jpg",
-            chartLink: "",
+            chartLink: "./src/charts/SEMC.pdf",
             providenceName: "Morona Santiago",
             providenceCode: "moronasantiago"
         },
@@ -106,7 +106,7 @@ export const chartsSectionInfo = (condition = "all") => {
             icao: "SEJD",
             city: "Jumandy",
             chartImg: "./src/assets/airports/SEJD.jpg",
-            chartLink: "",
+            chartLink: "./src/charts/SEJD.pdf",
             providenceName: "Napo",
             providenceCode: "napo"
         },
@@ -114,7 +114,7 @@ export const chartsSectionInfo = (condition = "all") => {
             icao: "SETN",
             city: "Esmeraldas",
             chartImg: "./src/assets/airports/SETN.jpg",
-            chartLink: "",
+            chartLink: "./src/charts/SETN.pdf",
             providenceName: "Esmeraldas",
             providenceCode: "esmeraldas"
         },
@@ -122,7 +122,7 @@ export const chartsSectionInfo = (condition = "all") => {
             icao: "SETU",
             city: "Tulcán",
             chartImg: "./src/assets/airports/SETU.jpg",
-            chartLink: "",
+            chartLink: "./src/charts/SETU.pdf",
             providenceName: "Carchi",
             providenceCode: "carchi"
         },
@@ -130,7 +130,7 @@ export const chartsSectionInfo = (condition = "all") => {
             icao: "SESA",
             city: "Salinas",
             chartImg: "./src/assets/airports/SESA.jpg",
-            chartLink: "",
+            chartLink: "./src/charts/SESA.pdf",
             providenceName: "Santa Elena",
             providenceCode: "santaelena"
         },
@@ -138,7 +138,7 @@ export const chartsSectionInfo = (condition = "all") => {
             icao: "SECA",
             city: "Catamayo",
             chartImg: "./src/assets/airports/SECA.jpeg",
-            chartLink: "",
+            chartLink: "./src/charts/SECA.pdf",
             providenceName: "Loja",
             providenceCode: "loja"
         }
@@ -218,7 +218,7 @@ export const chartsSectionInfo = (condition = "all") => {
              <div class="chartbox-text">
                  <p class='airportName'>${element.city}</p>
                  <p class='icaoCode'>${element.icao}</p>
-                 <a href="../sources/charts/SEGS - BALTRA.pdf" target="blank">Ver cartas de ${element.city}</a>
+                 <a href="${element.chartLink}" target="blank">Ver cartas de ${element.city}</a>
              </div>`
      
              chartBox.append(chartCard);
@@ -236,7 +236,7 @@ export const chartsSectionInfo = (condition = "all") => {
              <div class="chartbox-text">
                  <p class='airportName'>${element.city}</p>
                  <p class='icaoCode'>${element.icao}</p>
-                 <a href="../sources/charts/SEGS - BALTRA.pdf" target="blank">Ver cartas de ${element.city}</a>
+                 <a href="${element.chartLink}" target="blank">Ver cartas de ${element.city}</a>
              </div>`
      
              chartBox.append(chartCard);
